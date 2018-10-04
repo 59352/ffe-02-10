@@ -31,13 +31,32 @@
 		flex-grow: 0;
 		flex-shrink: 1;
 		flex-basis: 45%;
-		background-color: #f1f1f1;
 		border: 1px solid #aaa;
 		margin-bottom: 0;
 		margin-top: 10px;
 		text-align: center;
 		background-image: url(http://badmama.com.ua/wp-content/uploads/2017/06/look.com_.ua-40416.jpg);
 		background-size: 100%;
+		}
+		.box1:hover {
+		background-color: #0000ff;
+		opacity: 0.5;
+		color: #ffe;
+		}
+		.box2:hover {
+		background-color: #0000ff;
+		opacity: 0.5;
+		color: #ffe;
+		}
+		.box3:hover {
+		background-color: #0000ff;
+		opacity: 0.5;
+		color: #ffe;
+		}
+		.box4:hover {
+		background-color: #0000ff;
+		opacity: 0.5;
+		color: #ffe;
 		}
 		
 		.box3 {
@@ -71,16 +90,82 @@
 		flex-basis: 45%;
 		}
 		
+		<!-- ЛИЛОВАЯ КАРТА ФАЙЛЫ НИЖЕ -->
+		.item1{
+		
+		 background: #BA55D3;
+		 border-radius: 10px;
+		 width: 250px;
+		 height: 25px;
+		 color: white;
+		 text-align: center;
+		 display: inline-block;
+		 vertical-align: middle;
+		}
+		.item2{
+		background: #00BFFF;
+		width: 125px;
+		height: 50px;
+		position: relative;
+		border-radius: 20px;
+		margin-left: 500px;
+	    margin-top: 50px;
+		margin-right: 50px;
+		}
+		
+		 item2:after {
+		 content: " ";
+		 background-color: #00BFFF;
+		 width: 33px;
+		 height: 33px;
+		 position: absolute;
+		 
+		 transform: rotate(45deg);
+		 border-top-style: outset;
+		 border-right-style: outset;
+		 border-bottom-style: none;
+		 border-left-style: none;
+		 border-radius: 5px 10px 5px 10px;
+		 } 
+		}
+		.item3{
+		 
+		 color: white;
+		 width: 250px;
+		 transform: scale(1,1.5);
+		}
+		.item4{
+		 
+		 color: white;
+		 width: 250px;
+		 transform: scale(1,1.5);
+		}
+		.item5{
+		width: 70px;
+		 height: 25px;
+		 background: orange;
+		 border-radius: 5px;
+		 border-style: none;
+		 margin-left: 500px;
+		 margin-top: 100px;
+		 box-shadow: 2px 1px 1px gray;
+		}
+		<!-- ЛИЛОВАЯ КАРТА ФАЙЛЫ ВЫШЕ -->
 	</style>
 	<body>
 		
 			<div id="container">
 				<div class="box1 highlight">1</div>
-				<div class="box2">2</div>
+				<div class="box2">
+					<div class="item1">ЛИЛОВАЯ  КАРТА</div>
+					<div class="item2">BUY</div>
+					<div class="item3">БАЗОВЫЙ СПОРТ</div>
+					<div class="item4">Все спортивные программы рекреационного центра в одном абонементном пакете. Верните себе молодость!</div>
+					<div class="item5 price">4.000₴</div>
+				</div>
 				<div class="box3 highlight">3</div>
 				<div class="box4">4</div>
-				
-</div>
+			</div>
 		
 	</body>
 </html>
